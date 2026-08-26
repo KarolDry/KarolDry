@@ -2,11 +2,11 @@
 
 ### Java Backend Developer | Spring Boot | Microservices | Cloud & DevOps
 
-> M.Eng. in Computer Science (Cybersecurity) with a background in Teleinformatics. I develop backend and full-stack applications focused on Java, Spring Boot, microservices, REST APIs, event-driven systems and cloud technologies.
+> M.Eng. in Computer Science (Cybersecurity) with a background in Teleinformatics. I develop backend and full-stack applications focused primarily on Java, Spring Boot, microservices, REST APIs, event-driven systems and cloud technologies.
 
-My projects include JWT authentication and authorization, Apache Kafka communication, relational databases, containerized environments, CI pipelines and deployment to AWS.
+My projects include JWT authentication and authorization, Apache Kafka communication, relational databases, Machine Learning, data analytics, containerized environments, CI pipelines and deployment to AWS.
 
-I also have experience with frontend and mobile development using React, Angular and React Native.
+I also develop Python-based backend and data applications using FastAPI, Pandas, SciPy, scikit-learn and PostgreSQL, and have experience with frontend and mobile development using React, Angular and React Native.
 
 ---
 
@@ -27,7 +27,18 @@ I also have experience with frontend and mobile development using React, Angular
 ![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=white)
 ![Spring Cloud Gateway](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?logo=spring&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
+
+### Data Science & Machine Learning
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
 ### Architecture & APIs
 
@@ -74,6 +85,8 @@ I also have experience with frontend and mobile development using React, Angular
 
 ### Development & Quality Tools
 
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?logo=ruff&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?logo=sonarqube&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
@@ -120,6 +133,50 @@ The platform includes an Angular frontend, PostgreSQL persistence, Docker Compos
 **Tech:** `Java 21` `Spring Boot` `Spring Cloud Gateway` `Spring Security` `JWT` `PostgreSQL` `Apache Kafka` `Angular` `TypeScript` `Docker` `GitHub Actions` `AWS EC2`
 
 [View Smart Logistics Platform](https://github.com/KarolDry/smart-logistics-platform)
+
+---
+
+### LogiPredict
+
+Logistics analytics and shipment delay prediction platform built with Python.
+
+The application processes a synthetic dataset containing 50,000 shipments, performs data preprocessing, feature engineering and statistical analysis, and compares multiple Machine Learning models for delay prediction.
+
+A FastAPI backend exposes prediction and analytics endpoints, while PostgreSQL with SQLAlchemy stores shipment data, model metrics and prediction history. A Streamlit dashboard provides interactive analytics and delay-risk prediction.
+
+The entire application runs in a Docker Compose environment and includes automated tests, code quality checks and a GitHub Actions CI pipeline.
+
+**Main features:**
+
+- 50,000-record logistics dataset
+- Data preprocessing and feature engineering
+- Shipment delay analytics
+- Statistical analysis with SciPy
+- Spearman correlation
+- Mann–Whitney U test
+- Chi-square test and Cramér's V
+- Outlier detection using z-score
+- Logistic Regression
+- Random Forest
+- Gradient Boosting
+- Model comparison using Accuracy, Precision, Recall, F1 and ROC-AUC
+- Shipment delay probability prediction
+- Risk classification: LOW / MEDIUM / HIGH
+- FastAPI REST API
+- PostgreSQL persistence
+- SQLAlchemy ORM
+- Prediction history
+- Streamlit dashboard
+- Matplotlib visualizations
+- pytest automated tests
+- Ruff linting and formatting
+- Docker Compose
+- GitHub Actions CI
+- Swagger / OpenAPI documentation
+
+**Tech:** `Python 3.13` `Pandas` `NumPy` `SciPy` `Matplotlib` `scikit-learn` `FastAPI` `Pydantic` `SQLAlchemy` `PostgreSQL` `Streamlit` `pytest` `Ruff` `Docker` `GitHub Actions`
+
+[View LogiPredict](https://github.com/KarolDry/LogiPredict)
 
 ---
 
@@ -217,6 +274,8 @@ I have worked with:
 - Docker & Kubernetes
 - Infrastructure as Code
 - Monitoring & Observability
+- Data Analytics
+- Machine Learning
 - Cybersecurity
 
 ---
